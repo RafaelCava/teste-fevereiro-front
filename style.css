@@ -1,0 +1,62 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+#form-cadastro{
+  display: none;
+}
+
+main {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+  background-image: url(https://picsum.photos/1440/900);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid black;
+  padding: 60px;
+  border-radius: 20px;
+  background-color: #999;
+}
+
+.inputs {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.inputs input {
+  width: 100%;
+  border: 0;
+  padding: 5px;
+  border-radius: 20px;
+  outline: 0;
+}
+
+.inputs label {
+  margin-bottom: 10px;
+}
+
+.form button {
+  margin-bottom: 10px;
+  padding: 7px;
+  width: 100%;
+  max-width: 140px;
+  border: 0;
+  background-color: #444;
+  border-radius: 20px;
+  color: #fff;
+  cursor: pointer;
+}
